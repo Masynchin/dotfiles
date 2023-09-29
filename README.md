@@ -12,5 +12,5 @@ cd dotfiles
 Link dotfiles with `stow`:
 
 ~~~shell
-stow --restow --verbose --target ~ helix
+stow --restow --verbose --target ~ helix zellij
 ~~~
