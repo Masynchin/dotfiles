@@ -14,3 +14,9 @@ Link dotfiles with `stow`:
 ~~~shell
 stow --restow --verbose --target ~ alacritty helix zellij
 ~~~
+
+## My stack
+
+- **Terminal:** [Alacritty](https://github.com/alacritty/alacritty)
+  - **Multiplexer:** [zellij](https://github.com/zellij-org/zellij)
+- **Editor:** [Helix](https://github.com/helix-editor/helix)
