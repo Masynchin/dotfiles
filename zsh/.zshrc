@@ -105,10 +105,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Custom
-alias py="python3"
-alias pip="pip3"
-
 # Rust binaries paths
 export PATH="$PATH:$HOME/.cargo/bin"
 export GPG_TTY=$(tty)
