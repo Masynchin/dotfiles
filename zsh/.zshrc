@@ -1,11 +1,18 @@
 ## Auto cd
 setopt auto_cd
 
+## Enable coloring
+autoload -U colors && colors
+
 ## Completions from https://github.com/zsh-users/zsh-completions
 fpath=($HOME/.zsh/completions/src $fpath)
 
 ## Starship support for zsh
 eval "$(starship init zsh)"
+
+## VI mode in shell
+bindkey -v
+export KEYTIMEOUT=1
 
 ## The following lines were added by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -17,3 +24,13 @@ zstyle :compinstall filename '/Users/maxsmirnov/.zshrc'
 
 autoload -Uz compinit
 compinit
+
+## Zsh reverse auto-completion ??
+zmodload zsh/complist
+
+## Auto-complete hidden files
+_comp_options+=(globdots)
+
+## Completion style
+zstyle ":completion:*" list-colors "${(s.:.)LS_COLORS}"
+zstyle ":completion:*" menu select
