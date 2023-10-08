@@ -9,7 +9,7 @@ end
 
 config.color_scheme = "Bamboo"
 config.font = wezterm.font("IosevkaTerm Nerd Font", { weight = "Regular" })
-config.font_size = 13.5
+config.font_size = 24
 
 config.keys = {
   -- Pane rotation
