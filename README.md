@@ -12,12 +12,13 @@ cd dotfiles
 Link dotfiles with `stow`:
 
 ~~~shell
-stow --restow --verbose --target ~ alacritty helix wezterm zellij zsh
+stow --restow --verbose --target ~ alacritty helix starship wezterm zellij zsh
 ~~~
 
 ## My stack
 
 - **Shell**: [zsh](https://www.zsh.org)
+  - **Prompt:** [starship](https://github.com/starship/starship)
 - **Terminal:** [Alacritty](https://github.com/alacritty/alacritty)
   - **Multiplexer:** [zellij](https://github.com/zellij-org/zellij)
 - **Terminal:** [WezTerm](https://github.com/wez/wezterm)

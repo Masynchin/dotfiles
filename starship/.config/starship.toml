@@ -1,0 +1,10 @@
+# Do not insert newline between shell prompts
+add_newline = false
+
+[character]
+# Replace the symbol in the prompt with жалкий америконский доллар
+success_symbol = '[\$](bold green)'
+
+[git_branch]
+# Do not show branch icon
+format = "on [$branch(:$remote_branch)]($style) "
