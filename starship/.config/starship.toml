@@ -8,3 +8,15 @@ success_symbol = '[\$](bold green)'
 [git_branch]
 # Do not show branch icon
 format = "on [$branch(:$remote_branch)]($style) "
+
+[purescript]
+# Icon for PureScript
+symbol = "  "
+
+[scala]
+# Icon for Scala
+symbol = " "
+
+[zig]
+# Icon for Zig
+symbol = " "
