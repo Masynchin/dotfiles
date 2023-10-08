@@ -1,10 +1,6 @@
 # auto completeions
 autoload -U compinit; compinit
 
-# JDK
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
-
 # Default + Oh-My-Zsh...
 
 # If you come from bash you might have to change your $PATH.
@@ -104,10 +100,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Rust binaries paths
-export PATH="$PATH:$HOME/.cargo/bin"
-export GPG_TTY=$(tty)
-
-# golang
-export PATH="$PATH:$HOME/go/bin"
