@@ -1,3 +1,6 @@
+## Auto cd
+setopt auto_cd
+
 ## Completions from https://github.com/zsh-users/zsh-completions
 fpath=($HOME/.zsh/completions/src $fpath)
 
