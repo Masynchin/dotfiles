@@ -16,8 +16,8 @@ export KEYTIMEOUT=1
 
 ## The following lines were added by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 
 ## The following lines were added by compinstall
 zstyle :compinstall filename '/Users/maxsmirnov/.zshrc'
