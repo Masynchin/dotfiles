@@ -2,6 +2,12 @@
 
 ## Installation
 
+Prerequisites:
+
+- git
+- stow
+- just (optional)
+
 Clone this repo:
 
 ~~~shell
@@ -9,7 +15,13 @@ git clone https://github.com/Masynchin/dotfiles.git .
 cd dotfiles
 ~~~
 
-Link dotfiles with `stow`:
+Run with [just](https://github.com/casey/just), if you have one:
+
+~~~shell
+just install
+~~~
+
+Or just link with `stow`:
 
 ~~~shell
 stow --restow --verbose --target ~ alacritty helix starship wezterm zellij zsh
