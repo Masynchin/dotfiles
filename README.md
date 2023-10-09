@@ -4,9 +4,9 @@
 
 Prerequisites:
 
-- git
-- stow
-- just (optional)
+- [git](https://git-scm.com)
+- [stow](https://www.gnu.org/software/stow/)
+- [just](https://github.com/casey/just) (optional)
 
 Clone this repo:
 
