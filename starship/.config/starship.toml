@@ -15,6 +15,10 @@ vimcmd_replace_one_symbol = "[₽](bold purple)"
 # Do not show branch icon
 format = "on [$branch(:$remote_branch)]($style) "
 
+[haskell]
+# Icon for Haskell
+symbol = " "
+
 [purescript]
 # Icon for PureScript
 symbol = "  "
