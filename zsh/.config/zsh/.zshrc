@@ -45,4 +45,4 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 ## Include custom
 [ -f "$ZDOTDIR/.zsh/aliases" ] && source "$ZDOTDIR/.zsh/aliases"
-[ -f "$ZDOTDIR/.zsh/python" ] $$ source "$ZDOTDIR/.zsh/python"
+[ -f "$ZDOTDIR/.zsh/python" ] && source "$ZDOTDIR/.zsh/python"
