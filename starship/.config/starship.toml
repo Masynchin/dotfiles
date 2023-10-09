@@ -5,6 +5,11 @@ add_newline = false
 # Replace the symbol in the prompt with жалкий америконский доллар
 success_symbol = '[\$](bold green)'
 error_symbol = '[\$](bold red)'
+# Use крепкий отечественный рубль in vi mode
+vimcmd_symbol = "[₽](bold green)"
+vimcmd_visual_symbol = "[₽](bold yellow)"
+vimcmd_replace_symbol = "[₽](bold purple)"
+vimcmd_replace_one_symbol = "[₽](bold purple)"
 
 [git_branch]
 # Do not show branch icon
