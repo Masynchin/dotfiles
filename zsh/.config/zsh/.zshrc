@@ -23,7 +23,7 @@ SAVEHIST=10000
 zstyle :compinstall filename '/Users/maxsmirnov/.zshrc'
 
 autoload -Uz compinit
-compinit
+compinit -d "$ZSH_COMPDUMP"
 
 ## Zsh reverse auto-completion ??
 zmodload zsh/complist
