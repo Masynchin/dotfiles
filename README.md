@@ -24,7 +24,7 @@ just install
 Or just link with `stow`:
 
 ~~~shell
-stow --restow --verbose --target ~ alacritty helix starship wezterm zellij zsh
+stow --restow --verbose --target $XDG_CONFIG_HOME .
 ~~~
 
 ## My stack

@@ -1,0 +1,9 @@
+\.helix
+
+\.git
+\.gitignore
+\.gitmodules
+
+# Ignore files
+# A bit hacky, matches only files with extensions
+.+\..+

@@ -1,4 +1,4 @@
 set shell := ["zsh", "-uc"]
 
 install:
-	stow --restow --verbose --target ~ alacritty helix starship wezterm zellij zsh
+	stow --restow --verbose --target $XDG_CONFIG_HOME .

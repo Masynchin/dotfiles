@@ -1,4 +1,4 @@
 
-[submodule "zsh/.config/zsh/.zsh/competions"]
-	path = zsh/.config/zsh/.zsh/competions
+[submodule "zsh/.zsh/competions"]
+	path = zsh/.zsh/competions
 	url = https://github.com/zsh-users/zsh-completions.git
