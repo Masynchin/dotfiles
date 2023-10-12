@@ -20,7 +20,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 
 ## The following lines were added by compinstall
-zstyle :compinstall filename '/Users/maxsmirnov/.zshrc'
+zstyle :compinstall filename '$HOME/.zshrc'
 
 autoload -Uz compinit
 compinit -d "$ZSH_COMPDUMP"
