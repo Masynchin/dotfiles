@@ -15,9 +15,11 @@ bindkey -v
 export KEYTIMEOUT=1
 
 ## The following lines were added by zsh-newuser-install
-HISTFILE=~/.histfile
-HISTSIZE=10000
-SAVEHIST=10000
+export HISTFILE=~/.zsh_history
+export HISTSIZE=10000000
+export HISTFILESIZE=100000000
+setopt INC_APPEND_HISTORY
+setopt HIST_FIND_NO_DUPS
 
 ## The following lines were added by compinstall
 zstyle :compinstall filename '$HOME/.zshrc'
@@ -46,3 +48,8 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 ## Include custom
 [ -f "$ZDOTDIR/.zsh/aliases" ] && source "$ZDOTDIR/.zsh/aliases"
 [ -f "$ZDOTDIR/.zsh/python" ] && source "$ZDOTDIR/.zsh/python"
+
+# >>> scala-cli completions >>>
+fpath=("/Users/maxsmirnov/Library/Application Support/ScalaCli/completions/zsh" $fpath)
+compinit
+# <<< scala-cli completions <<<
